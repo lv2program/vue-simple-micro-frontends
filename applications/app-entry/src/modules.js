@@ -1,5 +1,4 @@
-module.exports = [
-  // sub apps
-  './app-typescript/main.js',
-  './app-javascript/main.js',
-];
+export const modules = {
+  'app-typescript': './app-typescript/main.js',
+  'app-javascript': './app-javascript/main.js',
+};
