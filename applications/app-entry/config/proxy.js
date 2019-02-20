@@ -5,4 +5,7 @@ module.exports = {
   'app-javascript/': {
     target: 'http://localhost:10242/',
   },
+  '/third-app/': {
+    target: 'http://localhost:10243/',
+  },
 };
